@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    background-color: #EBEBEB;
+    color: #171717;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #F6EB1E;
+}
+
+/*barra de navegacion */
+nav {
+    padding-left: 70px;
+    width: 100%;
+    height: 110px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-weight: 300;
+    color: #090909;
+    
+}
+
+input {
+    border: 1px #ffffff solid;
+    outline-color: rgb(0, 102, 255);
+
+}
+
+footer{
+    display: flex;
+    flex-direction: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 40px;
+    gap: 22px;
+    padding-left: 50px;
+}
+
+#Logo {
+    width: 100px;
+}
+
+#contenedorNav1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+#lupa {
+    height: 30px;
+    width: 30px;
+}
+
+#Buscador {
+    width: 400px;
+    height: 30px;
+}
+
+#ImagenNav {
+    width: 340px;
+    height: 50px;
+}
+
+.ContenedorDeTexto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+/*contenido de la página*/
+#banner{
+    width: 100%;
+    height: 340px;
+}
+
+.TextodDeCuadriculas h2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    padding-top: 30px;
+    gap: 15px;
+    font-size: 1.50rem;
+    font-weight: 500;
+}
+
+.CuadriculaTipo1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    padding-top: 15px;
+    padding-left: 60px;
+    padding-right: 150px;
+    
+}
+
+.CuadriculaTipo1 a{
+    width: 20px;
+}
+
+.CuadriculaTipo1 a img:hover{
+    border-radius: 10px;
+    width: 600px;
+    height: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.CuadriculaTipo2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding-top: 15px;
+    padding-left: 62px;
+    padding-right: 30px;
+}
+
+.CuadriculaTipo2 a{
+    width: 20px;
+}
+
+.CuadriculaTipo2 a img{
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+#Texto3raCuadricula h2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    padding-top: 90px;
+    gap: 15px;
+    font-size: 1.50rem;
+}
+
+.ContenedorDeCuadriculas3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.CuadriculaTipo3{
+    padding-left: 62px;
+    padding-top: 15px;
+}
+
+.CuadriculaTipo3 img{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.CuadriculaTipo4{
+    width: 100%;
+    padding: top;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.CuadriculaTipo4 a{
+    width: 20px;
+}
+
+.CuadriculaTipo4 a img:hover{
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
