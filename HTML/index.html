@@ -10,56 +10,77 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/71d3291266.js" crossorigin="anonymous"></script>
+    
+
 </head>
 
 <body>
     <header>
         <!--barra de navegación-->
-        <nav>
-
-            <!--Logo-->
+       <nav>
+        <!--Nav1-->
+        <div>
+            <a href="https://www.mercadolibre.com.ve" id="LogoNav">
+                <img src="./../CSS/Imagenes/logoML.png" alt="Logo">
+            </a>
             <div>
-                <a href="https://www.mercadolibre.com.ve/#from=homecom" id="anclaLogo"><img
-                        src="https://web-dev.imgix.net/image/admin/dSiMshQ9MRT9zgDybdmJ.jpg?auto=format" alt="Logo"
-                        id="Logo"></a>
+                <select name="Categorias">
+                    <option value="1">Categorias↓</option>
+                    <option value="2">Vehiculos</option>
+                    <option value="3">Inmuebles</option>
+                    <option value="4">Celulares y telefonos</option>
+                    <option value="5">Accesorios para Vehiculos</option>
+                    <option value="6">Moda</option>
+                    <option value="7">Electrodomésticos</option>
+                    <option value="8">Hogar y muebles</option>
+                    <option value="9">TV,Audio y video</option>
+                    <option value="10">Computación</option>
+                    <option value="11">Gaming</option>
+                    <option value="12">SuperMercado</option>
+                    <option value="13">Deportes y fitness</option>
+                    <option value="14">Belleza y cuidado personal</option>
+                    <option value="15">Oficinas e industrias</option>
+                    <option value="16">Herramientas y Construcción</option>
+                    <option value="17">Juguetes y bebes</option>
+                    <option value="18">Servicios</option>
+                </select>
             </div>
-
-
-            <!--Buscador-->
-
-            <div id="contenedorNav1">
+        </div>
+        <!--Nav2-->
+        <div>
+            <form autocomplete="off">
                 <div>
                     <input type="search" placeholder="Buscar productos, marcas y más" id="Buscador">
-                    <a href="#" id="anclaLupa">
-                        <img src="https://img.freepik.com/vector-premium/icono-busqueda-simbolo-lupa-icono-contorno_543062-139.jpg?w=360"
-                            id="lupa" alt="lupa">
-                    </a>
+                    <button type="submit" id="Lupa">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
                 </div>
+            </form>
+
+            <div id="TextoNav1">
+                <a href="">Historial</a>
+                <a href="">Tiendas oficiales</a>
+                <a href="">Ofertas de la semana</a>
+                <a href="">Vender</a>
+                <a href="">Ayuda</a>
             </div>
-            <!--Imagen de arranca el año-->
+        </div>
+        <!--Nav3-->
+        <div>
             <div>
-                <img src="https://http2.mlstatic.com/D_NQ_622835-MLA73800010337_012024-OO.webp" alt="Img"
-                    id="ImagenNav">
+               <a href="">
+                <img src="https://http2.mlstatic.com/D_NQ_622835-MLA73800010337_012024-OO.webp" alt="Empieza el año" id="EmpiezaElAñoImg">
+               </a>
+               <div id="TextoNav2">
+                <a href="">Crea tu cuenta</a>
+                <a href="">Ingresa</a>
+                <a href="">Mis cuentas</a>
+               </div>
             </div>
-            <!--contenedor de textos nmro1-->
-            <div class="ContenedorDeTexto">
-                <p>Categorias</p>
-            </div>
-            <div class="ContenedorDeTexto">
-                <p>Historial</p>
-                <p>Tiendas oficiales</p>
-                <p>Ofertas de la semana</p>
-                <p>Vender</p>
-                <p>Ayuda</p>
-            </div>
-            <div class="ContenedorDeTexto">
-                <p>Crea tu cuenta</p>
-                <p>Ingresa</p>
-                <p>Mis compras</p>
-            </div>
+        </div>
 
-
-        </nav>
+       </nav>
 
 
     </header>
@@ -88,8 +109,7 @@
             <!--Segunda Cuadricula-->
             
             <div class="TextodDeCuadriculas">
-                <h2>Las mejores tiendas te esperan</h2>
-                <a href="https://www.mercadolibre.com.ve/tiendas-oficiales"><p>Ver tiendas</p></a>
+                <h2>Las mejores tiendas te esperan</h2><a href="https://www.mercadolibre.com.ve/tiendas-oficiales">Ver Tiendas</a>
     
             </div>
            
